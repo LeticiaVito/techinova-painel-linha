@@ -1,4 +1,6 @@
 # 📊 TechInova - Painel de Linha de Produção
+Aluna: Leticia Vito de Oliveira  
+Matrícula:26174738
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
