@@ -1,24 +1,27 @@
 # Respostas do LAB 01
 
-Nome:
-Matricula:
-Dupla (M2 em diante):
+Nome: Leticia Vito de Oliveira
+Matricula: 26174738
+Dupla (M2 em diante):Aimée Juliana - 26174872
 
 ---
 
 ## M2 - Quem quebrou o painel
 
 **Hash curto do commit que introduziu o erro:**
+01ef93b
 
 **Autor:**
+Tarcisio Melo
 
 **Data:**
+15/06/2026 22:38
 
 **Linha alterada (antes e depois):**
 
 ```
-antes:
-depois:
+antes: return (leitura - 32) * 5 / 9;
+depois: return leitura * 9 / 5 + 32;
 ```
 
 ---
@@ -36,9 +39,9 @@ Responda em duas linhas, explicando o motivo:**
 
 **O que significavam os marcadores que apareceram dentro do arquivo:**
 
-- `<<<<<<<` :
-- `=======` :
-- `>>>>>>>` :
+* `<<<<<<<` :
+* `=======` :
+* `>>>>>>>` :
 
 **Qual pedaco veio de quem, e qual titulo voces decidiram manter:**
 
