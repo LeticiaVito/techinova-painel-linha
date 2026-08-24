@@ -79,3 +79,4 @@ Antes de iniciar, certifique-se de ter instalado em sua máquina:
    ```bash
    git clone [https://github.com/Nisflei/techinova-painel-linha.git](https://github.com/Nisflei/techinova-painel-linha.git)
    cd techinova-painel-linha
+"# teste" 
