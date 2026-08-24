@@ -29,9 +29,12 @@ depois: return leitura * 9 / 5 + 32;
 ## M3 - O segredo vazado
 
 **O que voce esperava ver no `git status` e o que apareceu:**
+Eu esperava que o arquivo `config/credenciais.env` deixasse de ser rastreado depois de adicioná-lo ao `.gitignore`, mas apareceu apenas o `.gitignore` como arquivo novo. Isso aconteceu porque o arquivo de credenciais já estava sendo rastreado pelo Git.
 
 **Depois do push, alguem que clonar o repositorio ainda consegue ler a chave?
 Responda em duas linhas, explicando o motivo:**
+Sim. Mesmo removendo o arquivo do rastreamento atual, a chave continua registrada nos commits antigos do histórico.
+Em uma situação real, seria necessário trocar a credencial vazada e, se necessário, limpar o histórico do repositório.
 
 ---
 
