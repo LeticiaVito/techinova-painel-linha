@@ -4,6 +4,7 @@ async function carregarSensores() {
   const resposta = await fetch('dados/sensores.json');
   const sensores = await resposta.json();
   sensores.forEach(desenharLinha);
+sensores.forEach(verificarAlerta);
 }
 
 function converterTemperatura(leitura) {
@@ -24,6 +25,11 @@ function desenharLinha(sensor) {
 function marcarAtualizacao() {
   document.querySelector('#atualizado').textContent = new Date().toLocaleString('pt-BR');
 }
-
+function verificarAlerta(sensor) {
+  if (sensor.valor > 80) {
+    document.querySelector('#lista-alertas').innerHTML +=
+      '<li>ALERTA: ' + sensor.descricao + '</li>';
+  }
+}
 carregarSensores();
 marcarAtualizacao();
